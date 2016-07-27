@@ -1,3 +1,8 @@
+div.adjst {
+    margin: -8px -8px 0 -8px;
+    /* to remove the white space aroud the div*/
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -7,7 +12,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a, .dropbtn {
@@ -43,7 +48,7 @@ li.dropdwn {
 }
 
 .dropdown-content a:hover {
-    background-color: aliceblue;
+    background-color: indianred;
 }
 
 .dropdwn:hover .dropdown-content {
