@@ -1,0 +1,23 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #505006;
+}
+
+aside {
+    background-color: #1b6d85;
+    color: #999;
+    margin: 5px;
+    padding: 30px;
+
+}
+nav{
+    display: flex;
+}
+nav >aside{
+    flex: 1;
+}
+@media(max-width:500px) {
+    nav{
+        display: block;
+    }
+}
